@@ -1,8 +1,4 @@
-# React + Vite
+Feed Hive
+Stay updated with the latest news in one place! The website uses an advanced RSS parser to gather articles, updates, and stories from multiple trusted sources, so you never miss important information. Whether you're looking for news on technology, entertainment, business, or sports, you'll find everything you need with just one click. Enjoy a personalized, streamlined news experience without the hassle of browsing multiple sites.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Uses React and Express to handle the front and backend. A rss parser is used to get the latest news from the website of your choice.
