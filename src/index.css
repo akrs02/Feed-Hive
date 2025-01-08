@@ -1,0 +1,47 @@
+body{
+  font-family: "Funnel Sans", serif;
+  background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+
+}
+
+.Heading{
+  text-align: center;
+}
+
+.Content{
+  width: 80%;
+  margin: 0px auto;
+  border: 1px solid grey;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.Feed-title{
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(52, 51, 51);
+}
+
+.Feed-title:hover {
+  color: blue;
+}
+
+.Feed-date{
+  font-size: 14px;
+  color: #888;
+  margin-top: 10px;
+}
+
+.Feed-container{
+  margin: 6px;
+}
+
+.Logo{
+  background-color: black;
+  margin: 10px;
+  padding: 12px;
+}
