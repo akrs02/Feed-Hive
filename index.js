@@ -9,7 +9,6 @@ let article=[];
 
 const parse=async url=>{
     const feed=await parser.parseURL(url);
-
     feed.items.forEach(item => {
         article.push({item});
     });
